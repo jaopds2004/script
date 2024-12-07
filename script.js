@@ -70,7 +70,7 @@ javascript:(function() {
             rouletteSlider.style.transform = `translateX(${randValue})`;
             rouletteSlider.style.transitionDuration = '1000ms';
             rouletteSlider.style.transitionDelay = '0ms';
-            if (Math.random() > 0.8) {
+            if (Math.random() > 0.4) {
                 resultText.innerHTML = `<i class="fas fa-check"></i> Acertou!`;
                 resultText.style.color = '#28a745';
             } else {
